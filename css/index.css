@@ -320,21 +320,79 @@ body .container {
 }
 .instruct2-left .two {
   color: white;
-  background: #9067C6;
+  background: #9067c6;
 }
 .instruct2-left .three {
   color: white;
-  background: #8D86C9;
+  background: #8d86c9;
 }
 .instruct2-left .four {
   color: white;
-  background: #CAC4CE;
+  background: #cac4ce;
 }
 .instruct2-left .five {
   color: white;
-  background: #F7ECE1;
+  background: #f7ece1;
 }
 .instruct2-left .six {
-  color: #CCC;
+  color: #ccc;
   background: white;
+}
+.instruct2-left .seven {
+  color: #ccc;
+  background: white;
+}
+.instruct2-left .eight {
+  color: #000;
+  background: white;
+}
+#pallet {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  width: 542px;
+  margin-right: 78px;
+  box-shadow: 0px 1px 20px -10px #888888;
+}
+#item-boxes {
+  display: flex;
+  justify-content: center;
+}
+#item-boxes .item {
+  margin: 10px;
+  height: 200px;
+  width: 120px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 20px -10px #888888;
+}
+#item-boxes #lastitem {
+  background: transparent;
+  border: 1px solid white;
+  height: 40px;
+  width: 60px;
+  margin-top: 70px;
+  padding-top: 10px;
+}
+#item-boxes #lastitem:hover {
+  cursor: pointer;
+}
+#item-boxes #lastitem .fa-plus {
+  color: white;
+  font-size: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+footer hr {
+  background: #ccc;
+  border: 0;
+  margin-bottom: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #444798;
+  margin: 50px 20px;
 }
