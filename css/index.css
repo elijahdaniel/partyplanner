@@ -194,3 +194,36 @@ body .container {
   color: #f5c41d;
   cursor: pointer;
 }
+#banner {
+  background: url('../../img/top.png') no-repeat center;
+  background-size: cover;
+  height: 570px;
+  text-align: center;
+}
+#banner img {
+  margin-top: 20px;
+  width: 40%;
+}
+#banner h1 {
+  margin-top: -120px;
+  margin-bottom: 20px;
+  font-size: 5rem;
+}
+#banner h1 #first-word {
+  color: #2eb0e6;
+}
+#banner h1 #second-word {
+  color: #444798;
+}
+#banner a {
+  margin: 10px;
+  border: 1px solid #CCC;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+#banner a:hover {
+  background: rgba(44, 44, 44, 0.082);
+  cursor: pointer;
+}
