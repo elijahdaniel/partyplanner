@@ -227,3 +227,114 @@ body .container {
   background: rgba(44, 44, 44, 0.082);
   cursor: pointer;
 }
+#instructions-container {
+  text-align: center;
+  margin-top: 200px;
+}
+#instructions-container h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+#instructions-container hr {
+  background: #ccc;
+  border: 0;
+}
+.instruct {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+}
+.instruct h3 {
+  font-size: 4rem;
+  color: #444798;
+}
+.instruct #i-left {
+  width: 50%;
+}
+.instruct #i-right {
+  width: 50%;
+}
+#in2 {
+  background: #f5c41d;
+  box-shadow: 0px 7px 10px -11px #888888;
+}
+#example1 {
+  border-radius: 10px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  width: 60%;
+  height: 300px;
+  text-align: left;
+  box-shadow: 0px 1px 20px -10px #888888;
+}
+#example1 hr {
+  background: #ccc;
+}
+#example1 h4 {
+  color: #2eb0e6;
+  margin-top: 10px;
+}
+#example1 button {
+  border: 1px solid #444798;
+  padding: 5px 20px;
+  background: #444798;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0px 8px 13px -10px #888888;
+  float: right;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+#example1 button:hover {
+  background: white;
+  color: #444798;
+  cursor: pointer;
+}
+.txt-field {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.txt-field .fa-window-maximize {
+  float: right;
+}
+.txt-field .fa-map-marker-alt {
+  float: right;
+}
+.instruct2-left {
+  display: flex;
+  justify-content: center;
+}
+.instruct2-left .colorpalette {
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  margin: 5px;
+}
+.instruct2-left .one {
+  color: white;
+  background: #242038;
+}
+.instruct2-left .two {
+  color: white;
+  background: #9067C6;
+}
+.instruct2-left .three {
+  color: white;
+  background: #8D86C9;
+}
+.instruct2-left .four {
+  color: white;
+  background: #CAC4CE;
+}
+.instruct2-left .five {
+  color: white;
+  background: #F7ECE1;
+}
+.instruct2-left .six {
+  color: #CCC;
+  background: white;
+}
