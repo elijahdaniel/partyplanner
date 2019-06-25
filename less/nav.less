@@ -1,0 +1,83 @@
+#navbar {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    background: transparent;
+    position: fixed;
+  
+    #nav-left {
+      width: 50%;
+      padding-left: 20px;
+  
+      a {
+        text-decoration: none;
+        text-shadow: 2px 2px 5px @purple;
+        transition: text-shadow 1s ease;
+  
+        &:hover {
+          text-shadow: none;
+          cursor: pointer;
+        }
+  
+        h1 {
+          text-shadow: 2px 2px 5px @purple;
+          text-transform: uppercase;
+          font-size: 1.9rem;
+          color: @yellow;
+          font-family: "Righteous", cursive;
+          // -webkit-text-stroke-width: 1px;
+          // -webkit-text-stroke-color: @yellowhover;
+        }
+      }
+    }
+  
+    #nav-right {
+      width: 50%;
+      padding-right: 30px;
+      padding-top: 5px;
+  
+      nav {
+        ul {
+          list-style-type: none;
+          display: flex;
+          width: 100%;
+          justify-content: flex-end;
+  
+          a {
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-left: 25px;
+            margin-right: 25px;
+            color: @purpleshadow;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            transition: background .5s, color 0.5s ease;
+  
+            &:hover {
+              color: @purple;
+              cursor: pointer;
+              
+            }
+          }
+        }
+      }
+  
+      #create {
+        border: 2px solid @yellow;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: @yellow;
+        border-radius: 20px;
+        color: @purpleshadow;
+        box-shadow: 0px 10px 18px -10px #888888;
+  
+        &:hover {
+          background: transparent;
+          color: @yellow;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  
