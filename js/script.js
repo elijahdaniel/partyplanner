@@ -1,8 +1,3 @@
-//event listeners
-const mask = document.querySelector('#mask');
-
-
-
 // countdown
 let target_date = new Date("2019-08-19 00:00").getTime();
 let days, hours, minutes, seconds;
@@ -24,3 +19,6 @@ setInterval(function() {
   countdown.innerHTML =
    "&nbsp;" + days + " Days " + hours + "h " + minutes + "m " + seconds + "s &nbsp;";
 }, 1000);
+
+
+AOS.init();
