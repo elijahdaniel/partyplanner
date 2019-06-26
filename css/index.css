@@ -272,6 +272,11 @@ body .container {
   text-align: center;
   margin-top: 100px;
 }
+@media (max-width: 500px) {
+  #instructions-container {
+    margin-top: 0;
+  }
+}
 #instructions-container h2 {
   font-size: 1.3rem;
   font-weight: 700;
@@ -289,6 +294,11 @@ body .container {
   align-items: center;
   margin-bottom: 200px;
 }
+@media (max-width: 500px) {
+  .instruct {
+    flex-direction: column;
+  }
+}
 .instruct h3 {
   font-size: 4rem;
   color: #444798;
@@ -297,13 +307,31 @@ body .container {
 .instruct #i-left {
   width: 50%;
 }
+@media (max-width: 500px) {
+  .instruct #i-left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
 .instruct #i-right {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .instruct #i-right {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 #in2 {
   background: linear-gradient(to bottom, #f5c41d, #f6af19);
   box-shadow: 0px 7px 10px -11px #888888;
   height: 550px;
+}
+@media (max-width: 500px) {
+  #in2 {
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+  }
 }
 #example1 {
   border-radius: 10px;
@@ -313,6 +341,12 @@ body .container {
   height: 300px;
   text-align: left;
   box-shadow: 0px 1px 20px -10px #888888;
+}
+@media (max-width: 500px) {
+  #example1 {
+    margin: 50px auto auto;
+    width: 80%;
+  }
 }
 #example1 hr {
   background: #ccc;
@@ -358,6 +392,11 @@ body .container {
   border: 1px solid rgba(0, 0, 0, 0.192);
   margin: 5px;
 }
+@media (max-width: 500px) {
+  .instruct2-left .colorpalette {
+    padding: 15px;
+  }
+}
 .instruct2-left .one {
   color: white;
   background: #242038;
@@ -397,6 +436,12 @@ body .container {
   width: 542px;
   margin-right: 78px;
   box-shadow: 0px 1px 20px -10px #888888;
+}
+@media (max-width: 500px) {
+  #pallet {
+    margin-right: 0;
+    width: 480px;
+  }
 }
 #item-boxes {
   display: flex;
@@ -464,6 +509,12 @@ body .container {
   width: 610px;
   border-radius: 30px;
   box-shadow: 0px 1px 20px -10px #888888;
+}
+@media (max-width: 500px) {
+  #countbox {
+    width: 485px;
+    margin: 0 auto;
+  }
 }
 #countbox #countdown {
   font-size: 3rem;
