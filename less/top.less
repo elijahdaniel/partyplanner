@@ -5,9 +5,18 @@
     text-align: center;
     padding-top: 100px;
 
+    @media @mobile {
+        padding-top: 10px;
+    }
+
     img {
         margin-top: 20px;
         width: 40%;
+
+        @media @mobile {
+            width: 100%;
+            margin-top: 0px;
+        }
     }
 
     h1 {
