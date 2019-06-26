@@ -529,10 +529,20 @@ footer {
   padding: 30px;
   width: 100%;
 }
+@media (max-width: 500px) {
+  footer {
+    padding-bottom: 50px;
+    width: 85%;
+  }
+}
 footer hr {
   background: #ccc;
   border: 0;
   margin-bottom: 30px;
+}
+footer span {
+  display: block;
+  margin: 30px;
 }
 footer a {
   text-decoration: none;
