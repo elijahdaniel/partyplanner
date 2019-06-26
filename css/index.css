@@ -510,6 +510,11 @@ body .container {
   border-radius: 30px;
   box-shadow: 0px 1px 20px -10px #888888;
 }
+#countbox h4 {
+  color: #2eb0e6;
+  padding-top: 90px;
+  font-size: 2rem;
+}
 @media (max-width: 500px) {
   #countbox {
     width: 485px;
@@ -522,7 +527,7 @@ body .container {
   background: rgba(0, 0, 0, 0.226);
   border-radius: 10px;
   position: relative;
-  top: 140px;
+  top: 20px;
 }
 footer {
   text-align: center;
