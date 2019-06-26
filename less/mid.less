@@ -24,6 +24,7 @@
   h3 {
     font-size: 4rem;
     color: @purple;
+    margin-bottom: 20px;
   }
 
   #i-left {
@@ -36,7 +37,7 @@
 }
 
 #in2 {
-  background: @yellow;
+  background: linear-gradient(to bottom, @yellow, @yellowshadow);
   box-shadow: 0px 7px 10px -11px #888888;
 }
 
@@ -127,7 +128,7 @@
   }
 
   .six {
-    color: #FFF;
+    color: #fff;
     background: #f7ece1;
   }
 
@@ -137,7 +138,7 @@
   }
 
   .eight {
-    color: #CCC;
+    color: #ccc;
     background: white;
   }
 }
@@ -165,7 +166,7 @@
 
     img {
       margin-top: 10px;
-      border: 1px solid #CCC;
+      border: 1px solid #ccc;
       border-radius: 5px;
       width: 80%;
     }
@@ -173,7 +174,7 @@
     p {
       text-align: left;
       padding: 0px 5px;
-      font-size: .9rem;
+      font-size: 0.9rem;
       margin-top: 3px;
     }
 
@@ -182,7 +183,7 @@
       margin: 10px 0px;
       width: 50px;
       padding: 5px 5px;
-      font-size: .9rem;
+      font-size: 0.9rem;
       text-decoration: none;
       color: @purple;
 
@@ -190,7 +191,7 @@
         color: @purpleshadow;
       }
 
-    .fa-times-circle {
+      .fa-times-circle {
         margin-top: 15px;
         font-size: 1.2rem;
         color: @red;
@@ -210,13 +211,31 @@
     margin-top: 100px;
     padding-top: 10px;
 
-      &:hover {
-        cursor: pointer;
-      }
+    &:hover {
+      cursor: pointer;
+    }
 
     .fa-plus {
       color: white;
       font-size: 2rem;
     }
+  }
+}
+
+#countbox {
+  background: url("../../img/count.png") no-repeat center;
+  background-size: cover;
+  height: 315px;
+  width: 610px;
+  border-radius: 30px;
+  box-shadow: 0px 1px 20px -10px #888888;
+
+  #countdown {
+    font-size: 3rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
+    position: relative;
+    top: 140px;
   }
 }

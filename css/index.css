@@ -250,6 +250,7 @@ body .container {
 .instruct h3 {
   font-size: 4rem;
   color: #444798;
+  margin-bottom: 20px;
 }
 .instruct #i-left {
   width: 50%;
@@ -258,7 +259,7 @@ body .container {
   width: 50%;
 }
 #in2 {
-  background: #f5c41d;
+  background: linear-gradient(to bottom, #f5c41d, #f6af19);
   box-shadow: 0px 7px 10px -11px #888888;
 }
 #example1 {
@@ -335,7 +336,7 @@ body .container {
   background: #ebddcf;
 }
 .instruct2-left .six {
-  color: #FFF;
+  color: #fff;
   background: #f7ece1;
 }
 .instruct2-left .seven {
@@ -343,7 +344,7 @@ body .container {
   background: white;
 }
 .instruct2-left .eight {
-  color: #CCC;
+  color: #ccc;
   background: white;
 }
 #pallet {
@@ -368,7 +369,7 @@ body .container {
 }
 #item-boxes .item img {
   margin-top: 10px;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 5px;
   width: 80%;
 }
@@ -412,6 +413,22 @@ body .container {
 #item-boxes #lastitem .fa-plus {
   color: white;
   font-size: 2rem;
+}
+#countbox {
+  background: url("../../img/count.png") no-repeat center;
+  background-size: cover;
+  height: 315px;
+  width: 610px;
+  border-radius: 30px;
+  box-shadow: 0px 1px 20px -10px #888888;
+}
+#countbox #countdown {
+  font-size: 3rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.226);
+  border-radius: 10px;
+  position: relative;
+  top: 140px;
 }
 footer {
   text-align: center;
