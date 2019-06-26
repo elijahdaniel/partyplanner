@@ -332,23 +332,23 @@ body .container {
 }
 .instruct2-left .five {
   color: white;
-  background: #f7ece1;
+  background: #ebddcf;
 }
 .instruct2-left .six {
-  color: #ccc;
-  background: white;
+  color: #FFF;
+  background: #f7ece1;
 }
 .instruct2-left .seven {
   color: #ccc;
   background: white;
 }
 .instruct2-left .eight {
-  color: #000;
+  color: #CCC;
   background: white;
 }
 #pallet {
   display: flex;
-  background: white;
+  background: #ffffff;
   border-radius: 10px;
   width: 542px;
   margin-right: 78px;
@@ -360,18 +360,50 @@ body .container {
 }
 #item-boxes .item {
   margin: 10px;
-  height: 200px;
+  height: 255px;
   width: 120px;
   background: white;
   border-radius: 10px;
   box-shadow: 0px 1px 20px -10px #888888;
+}
+#item-boxes .item img {
+  margin-top: 10px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  width: 80%;
+}
+#item-boxes .item p {
+  text-align: left;
+  padding: 0px 5px;
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+#item-boxes .item a {
+  border-radius: 50px;
+  margin: 10px 0px;
+  width: 50px;
+  padding: 5px 5px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #444798;
+}
+#item-boxes .item a:hover {
+  color: #3d4193;
+}
+#item-boxes .item a .fa-times-circle {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #e83c62;
+}
+#item-boxes .item a .fa-times-circle:hover {
+  color: #d02a4e;
 }
 #item-boxes #lastitem {
   background: transparent;
   border: 1px solid white;
   height: 40px;
   width: 60px;
-  margin-top: 70px;
+  margin-top: 100px;
   padding-top: 10px;
 }
 #item-boxes #lastitem:hover {
