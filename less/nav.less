@@ -17,6 +17,10 @@
       @media @mobile {
         display: none;
       }
+
+      @media @tablet {
+        display: none;
+      }
   
       a {
         text-decoration: none;
@@ -41,12 +45,19 @@
     }
   
     #nav-right {
-      width: 50%;
+      width: 90%;
       padding-right: 30px;
       padding-top: 5px;
 
       @media @mobile {
         width: 100%;
+        padding-right: 0;
+      }
+
+      @media @tablet {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
         padding-right: 0;
       }
   
@@ -60,6 +71,10 @@
           @media @mobile {
             flex-direction: column;
             text-align: center;
+          }
+
+          @media @tablet {
+            justify-content: center;
           }
   
           a {
