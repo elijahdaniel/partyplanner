@@ -17,6 +17,10 @@
       @media @mobile {
         display: none;
       }
+
+      @media @tablet {
+        display: none;
+      }
   
       a {
         text-decoration: none;
@@ -41,12 +45,19 @@
     }
   
     #nav-right {
-      width: 50%;
+      width: 90%;
       padding-right: 30px;
       padding-top: 5px;
 
       @media @mobile {
         width: 100%;
+        padding-right: 0;
+      }
+
+      @media @tablet {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
         padding-right: 0;
       }
   
@@ -61,6 +72,10 @@
             flex-direction: column;
             text-align: center;
           }
+
+          @media @tablet {
+            justify-content: center;
+          }
   
           a {
             font-size: 1.2rem;
@@ -73,8 +88,8 @@
             transition: background .5s, color 0.5s ease;
 
             @media @mobile {
-              font-size: 3rem;
-              line-height: 90px;
+              font-size: 2rem;
+              line-height: 70px;
             }
   
             &:hover {

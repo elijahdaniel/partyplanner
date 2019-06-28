@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Party Planner - Sign Up</title>
+    <link href='css/index.css' rel='stylesheet' type='text/css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='css/keyframes.css' rel='stylesheet' type='text/css'>
+    <script src='https://kit.fontawesome.com/b73f24ea2b.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+    <link href='https://fonts.googleapis.com/css?family=Questrial|Righteous&display=swap' rel='stylesheet'>
+  </head>
+<body>
+    <div class='container setcontain'>
+        <div id='navbar'>
+            <section id='nav-left'></section>
+            <section id='nav-right'>
+                <nav>
+                    <ul>
+                        <li><a href='index.html'>Home</a></li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Contact</a></li>
+                        <li><a href='signup.html' id='create'>Sign Up</a></li>
+                    </ul>
+                </nav>
+            </section>
+            </section>
+        </div>
+        <div id='banner'>
+            <img id='setupmask' class='slide-in-top' src='img/mask.png'><br>
+            <section id='signupform'>
+                <div class="tabs">
+                    <button class="tLinks" onclick="tabToggle(event, 'signup')" id="default">Sign Up</button>
+                    <button class="tLinks" onclick="tabToggle(event, 'signin')">Log In</button>
+                </div>
+                <div id="signup" class="tContent">
+                    <h3>Create an Account</h3>
+                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-google-plus"></i></span>
+                    <span><i class="fab fa-twitter-square"></i></span>
+                    <form autocomplete="off">
+                        <p>First name</p>
+                        <input type="text" name="firstname" required>
+                        <p>Last name</p>
+                        <input type="text" name="lastname" required>
+                        <p>E-Mail</p>
+                        <input type="email" name="email" required>
+                        <p>Password</p>
+                        <input type="password" name="Password" required>
+                        <p>Confirm Password</p>
+                        <input type="password" name="Password" required>
+                    </form><br><br><br>
+                    <input type="checkbox" name="box" id='box' required>
+                    <p id='agree'>I agree to the
+                        <p id='agreelink'>Party Planner Service Agreement</p>
+                    </p>
+                    <button>Join Now</button>
+                </div>
+                <div id="signin" class="tContent">
+                    <h3>Welcome Back!</h3>
+                    <img src='img/mask.png'>
+                    <form>
+                        <p>E-Mail</p>
+                        <input type="email" name="email" required>
+                        <p>Password</p>
+                        <input type="password" name="Password" required>
+                    </form><br><br>
+                    <input type="checkbox" name="box" id='box' required>
+                    <p id='agree'>Remember Me</p>
+                    </p>
+                    <button>Sign In</button>
+                    <section id='social-buttons'>
+                    <span><i class="fab fa-facebook-f"></i>Sign In with Facebook</span>
+                    <span><i class="fab fa-google"></i>Sign In with Google</span>
+                    <span><i class="fab fa-twitter"></i>Sign In with Twitter</span>
+                </section>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer id='setup'>
+        <hr width='80%' size='3.6'>
+        <span>&copy; Party Planner 2019</span>
+        <a href='#'>About</a> |
+        <a href='#'>Contact</a> |
+        <a href='#'>FAQ</a> |
+        <a href='#'>Jobs</a>
+    </footer>
+    <script src='js/setup.js'></script>
+</body>
+  
+  </html>
