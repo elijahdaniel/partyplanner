@@ -1,5 +1,5 @@
 // countdown
-let target_date = new Date("2030-08-19 00:00").getTime();
+let target_date = new Date("2020-12-30 00:00").getTime();
 let days, hours, minutes, seconds;
 let countdown = document.getElementById("countdown");
 
